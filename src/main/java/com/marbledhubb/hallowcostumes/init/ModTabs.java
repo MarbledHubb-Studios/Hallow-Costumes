@@ -9,12 +9,14 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+import static com.marbledhubb.hallowcostumes.HallowCostumes.MODID;
+
 public class ModTabs {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HallowCostumes.MODID);
 
     public static final RegistryObject<CreativeModeTab> HALLOW_COSTUMES = TABS.register("hallow_costumes",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.hallow_costumes"))
+                    .title(Component.translatable("itemGroup." + MODID + ".hallow_costumes"))
                     .icon(() -> new ItemStack(ModItems.GHOST_FACE_HELMET.get()))
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.GHOST_FACE_HELMET.get());
