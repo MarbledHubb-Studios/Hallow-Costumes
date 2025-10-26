@@ -1,5 +1,7 @@
 package com.marbledhubb.hallowcostumes;
 
+import com.marbledhubb.hallowcostumes.init.ModItems;
+import com.marbledhubb.hallowcostumes.init.ModTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -22,15 +24,13 @@ public class HallowCostumes
     {
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        //modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+        ModItems.register(modEventBus);
+        ModTabs.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
-    {
-
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
 
     }
