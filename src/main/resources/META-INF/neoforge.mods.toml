@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All Rights Reserved"
+issueTrackerURL="https://discord.marbledhubb.com"
+
+[[mods]]
+modId="hallowcostumes"
+version="1.0.0.0"
+displayName="Hallow Costumes"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="examplemod.png"
+credits="MarbledHubb Studios, Premium Members, Beta Testers, GitHub contributers"
+authors="MarbledNull, WereF0X"
+
+description='''A mod that adds sorts of iconic Halloween costumes'''
+
+[[dependencies.hallowcostumes]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hallowcostumes]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
