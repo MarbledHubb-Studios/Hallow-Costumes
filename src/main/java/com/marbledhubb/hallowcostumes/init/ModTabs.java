@@ -18,13 +18,16 @@ public class ModTabs {
             .title(Component.translatable("itemGroup." + MODID + ".hallow_costumes"))
             .icon(() -> new ItemStack(ModItems.GHOSTFACE_HELMET.get()))
             .displayItems((params, output) -> {
+                //items
+                output.accept(ModItems.PROP_KNIFE.get());
+
+                //armors
                 output.accept(ModItems.GHOSTFACE_HELMET.get());
                 output.accept(ModItems.GHOSTFACE_CHESTPLATE.get());
                 output.accept(ModItems.GHOSTFACE_LEGGINGS.get());
                 output.accept(ModItems.GHOSTFACE_BOOTS.get());
 
                 output.accept(ModItems.FREDDY_HELMET.get());
-
             })
             .build()
     );
