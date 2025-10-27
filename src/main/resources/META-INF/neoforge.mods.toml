@@ -12,7 +12,7 @@ logoFile="hc_icon.png"
 credits="MarbledHubb Studios, Premium Members, Beta Testers, GitHub contributers"
 authors="MarbledNull, WereF0X"
 
-description='''A mod that adds costumes of iconic horror characters'''
+description='''A mod that adds costumes of iconic horror characters and item props'''
 
 [[dependencies.hallowcostumes]]
     modId="neoforge"
