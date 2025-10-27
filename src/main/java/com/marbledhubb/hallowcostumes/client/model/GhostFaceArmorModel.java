@@ -1,7 +1,7 @@
 package com.marbledhubb.hallowcostumes.client.model;
 
 import com.marbledhubb.hallowcostumes.HallowCostumes;
-import com.marbledhubb.hallowcostumes.init.armoritem.GhostFaceArmorItem;
+import com.marbledhubb.hallowcostumes.init.item.GhostFaceArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.model.GeoModel;
 

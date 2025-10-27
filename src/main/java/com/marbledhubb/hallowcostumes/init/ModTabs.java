@@ -16,9 +16,14 @@ public class ModTabs {
 
     public static final Supplier<CreativeModeTab> HALLOW_COSTUMES = CREATIVE_MODE_TABS.register("hallow_costumes", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup." + MODID + ".hallow_costumes"))
-            .icon(() -> new ItemStack(ModItems.GHOST_FACE_HELMET.get()))
+            .icon(() -> new ItemStack(ModItems.GHOSTFACE_HELMET.get()))
             .displayItems((params, output) -> {
-                output.accept(ModItems.GHOST_FACE_HELMET.get());
+                output.accept(ModItems.GHOSTFACE_HELMET.get());
+                output.accept(ModItems.GHOSTFACE_CHESTPLATE.get());
+                output.accept(ModItems.GHOSTFACE_LEGGINGS.get());
+                output.accept(ModItems.GHOSTFACE_BOOTS.get());
+
+                output.accept(ModItems.FREDDY_HELMET.get());
 
             })
             .build()

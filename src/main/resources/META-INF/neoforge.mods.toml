@@ -8,11 +8,11 @@ modId="hallowcostumes"
 version="1.0.0.0"
 displayName="Hallow Costumes"
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
-logoFile="examplemod.png"
+logoFile="hc_icon.png"
 credits="MarbledHubb Studios, Premium Members, Beta Testers, GitHub contributers"
 authors="MarbledNull, WereF0X"
 
-description='''A mod that adds sorts of iconic Halloween costumes'''
+description='''A mod that adds costumes of iconic horror characters'''
 
 [[dependencies.hallowcostumes]]
     modId="neoforge"
@@ -25,5 +25,12 @@ description='''A mod that adds sorts of iconic Halloween costumes'''
     modId="minecraft"
     type="required"
     versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hallowcostumes]]
+    modId="geckolib"
+    type="required"
+    versionRange="4.8.2,"
     ordering="NONE"
     side="BOTH"

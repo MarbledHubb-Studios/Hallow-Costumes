@@ -1,5 +1,6 @@
-package com.marbledhubb.hallowcostumes.init.armoritem;
+package com.marbledhubb.hallowcostumes.init.item;
 
+import com.marbledhubb.hallowcostumes.client.renderer.FreddyArmorRenderer;
 import com.marbledhubb.hallowcostumes.client.renderer.GhostFaceArmorRenderer;
 import com.marbledhubb.hallowcostumes.init.ModItems;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
@@ -10,6 +11,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.decoration.ArmorStand;
+import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
@@ -29,11 +31,11 @@ import javax.annotation.Nullable;
 import java.util.Set;
 import java.util.function.Consumer;
 
-public class GhostFaceArmorItem extends ArmorItem implements GeoItem {
+public class FreddyArmorItem extends ArmorItem implements GeoItem {
 
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 
-    public GhostFaceArmorItem(Holder<ArmorMaterial> armorMaterial, ArmorItem.Type type, Properties properties) {
+    public FreddyArmorItem(Holder<ArmorMaterial> armorMaterial, Type type, Properties properties) {
         super(armorMaterial, type, properties);
     }
 
@@ -45,7 +47,7 @@ public class GhostFaceArmorItem extends ArmorItem implements GeoItem {
             @Override
             public <T extends LivingEntity> HumanoidModel<?> getGeoArmorRenderer(@Nullable T livingEntity, ItemStack itemStack, @Nullable EquipmentSlot equipmentSlot, @Nullable HumanoidModel<T> original) {
                 if(this.renderer == null)
-                    this.renderer = new GhostFaceArmorRenderer();
+                    this.renderer = new FreddyArmorRenderer();
 
                 return this.renderer;
             }
@@ -64,18 +66,8 @@ public class GhostFaceArmorItem extends ArmorItem implements GeoItem {
 
             Set<Item> wornArmor = new ObjectOpenHashSet<>();
 
-            for (ItemStack stack : entity.getControllingPassenger().getArmorSlots()) {
-                if (stack.isEmpty())
-                    return PlayState.STOP;
-
-                wornArmor.add(stack.getItem());
-            }
-
             boolean isFullSet = wornArmor.containsAll(ObjectArrayList.of(
-                    ModItems.GHOST_FACE_HELMET,
-                    ModItems.GHOST_FACE_CHESTPLATE,
-                    ModItems.GHOST_FACE_LEGGINGS,
-                    ModItems.GHOST_FACE_BOOTS));
+                    ModItems.FREDDY_HELMET));
 
             return isFullSet ? PlayState.CONTINUE : PlayState.STOP;
         }));
