@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "L L"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_dye"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "hallowcostumes:ghostface_boots",
+    "count": 1
+  }
+}

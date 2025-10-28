@@ -2,10 +2,24 @@
   "itemGroup.hallowcostumes.hallow_costumes": "Hallow Costumes",
 
   "item.hallowcostumes.prop_knife": "Prop Knife",
+  "item.hallowcostumes.prop_kitchen_knife": "Prop Kitchen Knife",
+  "item.hallowcostumes.freddys_microphone": "Freddy's Microphone",
 
   "item.hallowcostumes.ghostface_helmet": "Ghostface Mask",
   "item.hallowcostumes.ghostface_chestplate": "Ghostface Robe",
   "item.hallowcostumes.ghostface_leggings": "Ghostface Pants",
   "item.hallowcostumes.ghostface_boots": "Ghostface Boots",
-  "item.hallowcostumes.freddy_helmet": "Freddy Mask"
+  "item.hallowcostumes.michael_myers_helmet": "Michael Myers Mask",
+  "item.hallowcostumes.michael_myers_chestplate": "Michael Myers Coveralls",
+  "item.hallowcostumes.michael_myers_leggings": "Michael Myers Pants",
+  "item.hallowcostumes.michael_myers_boots": "Michael Myers Boots",
+  "item.hallowcostumes.mummy_helmet": "Mummy Helmet",
+  "item.hallowcostumes.mummy_chestplate": "Mummy Chestplate",
+  "item.hallowcostumes.mummy_leggings": "Mummy Leggings",
+  "item.hallowcostumes.mummy_boots": "Mummy Boots",
+  "item.hallowcostumes.freddy_helmet": "Freddy Fazbear Mask",
+  "item.hallowcostumes.bonnie_helmet": "Bonnie the Bunny Mask",
+  "item.hallowcostumes.bonnie_alt_helmet": "Bonnie the Bunny Mask (ALT)",
+  "item.hallowcostumes.chica_helmet": "Chica the Chicken Mask",
+  "item.hallowcostumes.foxy_helmet": "Foxy the Pirate Mask"
 }

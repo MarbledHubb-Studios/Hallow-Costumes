@@ -20,14 +20,30 @@ public class ModTabs {
             .displayItems((params, output) -> {
                 //items
                 output.accept(ModItems.PROP_KNIFE.get());
+                output.accept(ModItems.PROP_KITCHEN_KNIFE.get());
+                output.accept(ModItems.FREDDYS_MICROPHONE);
 
                 //armors
-                output.accept(ModItems.GHOSTFACE_HELMET.get());
-                output.accept(ModItems.GHOSTFACE_CHESTPLATE.get());
-                output.accept(ModItems.GHOSTFACE_LEGGINGS.get());
-                output.accept(ModItems.GHOSTFACE_BOOTS.get());
+                output.accept(ModItems.GHOSTFACE_HELMET);
+                output.accept(ModItems.GHOSTFACE_CHESTPLATE);
+                output.accept(ModItems.GHOSTFACE_LEGGINGS);
+                output.accept(ModItems.GHOSTFACE_BOOTS);
 
-                output.accept(ModItems.FREDDY_HELMET.get());
+                output.accept(ModItems.MICHAEL_MYERS_HELMET);
+                output.accept(ModItems.MICHAEL_MYERS_CHESTPLATE);
+                output.accept(ModItems.MICHAEL_MYERS_LEGGINGS);
+                output.accept(ModItems.MICHAEL_MYERS_BOOTS);
+
+                output.accept(ModItems.MUMMY_HELMET);
+                output.accept(ModItems.MUMMY_CHESTPLATE);
+                output.accept(ModItems.MUMMY_LEGGINGS);
+                output.accept(ModItems.MUMMY_BOOTS);
+
+                output.accept(ModItems.FREDDY_HELMET);
+                output.accept(ModItems.BONNIE_HELMET);
+                output.accept(ModItems.BONNIE_ALT_HELMET);
+                output.accept(ModItems.CHICA_HELMET);
+                output.accept(ModItems.FOXY_HELMET);
             })
             .build()
     );
