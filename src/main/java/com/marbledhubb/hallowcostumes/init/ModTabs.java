@@ -19,6 +19,8 @@ public class ModTabs {
                     .title(Component.translatable("itemGroup." + MODID + ".hallow_costumes"))
                     .icon(() -> new ItemStack(ModItems.GHOST_FACE_HELMET.get()))
                     .displayItems((displayParameters, output) -> {
+
+
                         output.accept(ModItems.GHOST_FACE_HELMET.get());
                         output.accept(ModItems.GHOST_FACE_CHESTPLATE.get());
                         output.accept(ModItems.GHOST_FACE_LEGGINGS.get());
@@ -29,7 +31,16 @@ public class ModTabs {
                         output.accept(ModItems.MICHAEL_MYERS_LEGGINGS.get());
                         output.accept(ModItems.MICHAEL_MYERS_BOOTS.get());
 
+                        output.accept(ModItems.MUMMY_HELMET.get());
+                        output.accept(ModItems.MUMMY_CHESTPLATE.get());
+                        output.accept(ModItems.MUMMY_LEGGINGS.get());
+                        output.accept(ModItems.MUMMY_BOOTS.get());
+
                         output.accept(ModItems.FREDDY_HELMET.get());
+                        output.accept(ModItems.BONNIE_HELMET.get());
+                        output.accept(ModItems.BONNIE_ALT_HELMET.get());
+                        output.accept(ModItems.CHICA_HELMET.get());
+                        output.accept(ModItems.FOXY_HELMET.get());
                     })
                     .build()
     );

@@ -1,5 +1,6 @@
-package com.marbledhubb.hallowcostumes.init.armoritems;
+package com.marbledhubb.hallowcostumes.init.item;
 
+import com.marbledhubb.hallowcostumes.client.renderer.BonnieAltArmorRenderer;
 import com.marbledhubb.hallowcostumes.client.renderer.GhostFaceArmorRenderer;
 import com.marbledhubb.hallowcostumes.init.ModItems;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
@@ -28,10 +29,10 @@ import software.bernie.geckolib.util.GeckoLibUtil;
 import java.util.Set;
 import java.util.function.Consumer;
 
-public class GhostFaceArmorItem extends ArmorItem implements GeoItem {
+public class BonnieAltArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 
-    public GhostFaceArmorItem(ArmorMaterial armorMaterial, Type type, Properties properties) {
+    public BonnieAltArmorItem(ArmorMaterial armorMaterial, Type type, Properties properties) {
         super(armorMaterial, type, properties);
     }
 
@@ -43,7 +44,7 @@ public class GhostFaceArmorItem extends ArmorItem implements GeoItem {
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity livingEntity, ItemStack itemStack, EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new GhostFaceArmorRenderer();
+                    this.renderer = new BonnieAltArmorRenderer();
 
                 this.renderer.prepForRender(livingEntity, itemStack, equipmentSlot, original);
 
@@ -72,10 +73,7 @@ public class GhostFaceArmorItem extends ArmorItem implements GeoItem {
             }
 
             boolean isFullSet = wornArmor.containsAll(ObjectArrayList.of(
-                    ModItems.GHOST_FACE_HELMET.get(),
-                    ModItems.GHOST_FACE_CHESTPLATE.get(),
-                    ModItems.GHOST_FACE_LEGGINGS.get(),
-                    ModItems.GHOST_FACE_BOOTS.get()));
+                    ModItems.BONNIE_ALT_HELMET.get()));
 
             return isFullSet ? PlayState.CONTINUE : PlayState.STOP;
         }));
