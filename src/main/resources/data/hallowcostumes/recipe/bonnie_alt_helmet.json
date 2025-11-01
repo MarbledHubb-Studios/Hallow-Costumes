@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FLF",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "F": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "id": "hallowcostumes:bonnie_alt_helmet",
+    "count": 1
+  }
+}

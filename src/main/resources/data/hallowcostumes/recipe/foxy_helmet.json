@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FLF",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "F": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "id": "hallowcostumes:foxy_helmet",
+    "count": 1
+  }
+}

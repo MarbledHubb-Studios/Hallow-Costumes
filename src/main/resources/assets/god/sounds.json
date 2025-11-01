@@ -1,0 +1,66 @@
+{
+  "god": {
+    "sounds": [
+      {
+        "name": "god:japan_eas_alarm",
+        "stream": false
+      }
+    ]
+  },
+  "godcome": {
+    "sounds": [
+      {
+        "name": "god:squirrel-stapler-soundtrack-god-is-cominggod-is-here",
+        "stream": false
+      }
+    ]
+  },
+  "godstep": {
+    "sounds": [
+      {
+        "name": "god:angel-wings-flying-177404-_mp3cut.net_",
+        "stream": false
+      }
+    ]
+  },
+  "angelsonggood": {
+    "sounds": [
+      {
+        "name": "god:4_-no_yy-god-pre_raschenie-iz-plohih-_-horoshih",
+        "stream": false
+      }
+    ]
+  },
+  "scr1": {
+    "sounds": [
+      {
+        "name": "god:hit-effekt-dlya-stsenyi-ujasa-quotkrik-robotaquot-32209",
+        "stream": false
+      }
+    ]
+  },
+  "godagro": {
+    "sounds": [
+      {
+        "name": "god:provieriaitie-informatsiiu_-ia-nie-znaiu-otkuda-etot-zvuk-vzialsia_-no-iedva-li-on-pokhozh-na-otkrovieniia-_zvukira",
+        "stream": false
+      }
+    ]
+  },
+  "scr2sound": {
+    "sounds": [
+      {
+        "name": "god:strashnye-zvuki-1",
+        "stream": false
+      }
+    ]
+  },
+  "seragro": {
+    "sounds": [
+      {
+        "name": "god:chast-43-1",
+        "stream": false
+      }
+    ]
+  }
+}
