@@ -12,10 +12,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, HallowCostumes.MODID);
 
-    public static final RegistryObject<Item> GHOST_FACE_HELMET = ITEMS.register("ghost_face_helmet", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties()));
-    public static final RegistryObject<Item> GHOST_FACE_CHESTPLATE = ITEMS.register("ghost_face_chestplate", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    public static final RegistryObject<Item> GHOST_FACE_LEGGINGS = ITEMS.register("ghost_face_leggings", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    public static final RegistryObject<Item> GHOST_FACE_BOOTS = ITEMS.register("ghost_face_boots", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> GHOST_FACE_HELMET = ITEMS.register("ghostface_helmet", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> GHOST_FACE_CHESTPLATE = ITEMS.register("ghostface_chestplate", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> GHOST_FACE_LEGGINGS = ITEMS.register("ghostface_leggings", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> GHOST_FACE_BOOTS = ITEMS.register("ghostface_boots", () -> new GhostFaceArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> MICHAEL_MYERS_HELMET = ITEMS.register("michael_myers_helmet", () -> new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> MICHAEL_MYERS_CHESTPLATE = ITEMS.register("michael_myers_chestplate", () -> new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
