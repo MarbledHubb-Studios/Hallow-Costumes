@@ -1,25 +1,23 @@
 package com.marbledhubb.hallowcostumes;
 
-import com.marbledhubb.hallowcostumes.init.ModItems;
-import com.marbledhubb.hallowcostumes.init.ModTabs;
+import com.marbledhubb.hallowcostumes.world.item.ModCreativeModeTabs;
+import com.marbledhubb.hallowcostumes.world.item.ModItems;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-@Mod(HallowCostumes.MODID)
+@Mod(HallowCostumes.MOD_ID)
 public class HallowCostumes
 {
-    public static final String MODID = "hallowcostumes";
-    //digging in our code, twin?
+    public static final String MOD_ID = "hallowcostumes";
+    //digging in our spooky code, twin?
 
     public HallowCostumes(IEventBus modEventBus, ModContainer modContainer)
     {
@@ -28,7 +26,7 @@ public class HallowCostumes
         //modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
         ModItems.register(modEventBus);
-        ModTabs.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -42,7 +40,7 @@ public class HallowCostumes
 
     }
 
-    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent
