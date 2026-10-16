@@ -19,6 +19,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 public class HallowCostumes
 {
     public static final String MODID = "hallowcostumes";
+    //digging in our code, twin?
 
     public HallowCostumes(IEventBus modEventBus, ModContainer modContainer)
     {
