@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "FLF",
+    "L L"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_dye"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "F": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "id": "hallowcostumes:freddy_helmet",
+    "count": 1
+  }
+}

@@ -1,7 +1,7 @@
 package com.marbledhubb.hallowcostumes;
 
-import com.marbledhubb.hallowcostumes.init.ModItems;
-import com.marbledhubb.hallowcostumes.init.ModTabs;
+import com.marbledhubb.hallowcostumes.world.item.ModCreativeModeTabs;
+import com.marbledhubb.hallowcostumes.world.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -12,10 +12,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod(HallowCostumes.MODID)
+@Mod(HallowCostumes.MOD_ID)
 public class HallowCostumes
 {
-    public static final String MODID = "hallowcostumes";
+    public static final String MOD_ID = "hallowcostumes";
+
+    //mm goat
 
     public HallowCostumes(FMLJavaModLoadingContext context)
     {
@@ -25,7 +27,7 @@ public class HallowCostumes
         //context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
         ModItems.register(modEventBus);
-        ModTabs.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -39,7 +41,7 @@ public class HallowCostumes
 
     }
 
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent
