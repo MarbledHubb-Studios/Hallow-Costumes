@@ -7,10 +7,10 @@ issueTrackerURL="https://discord.marbledhubb.com"
 modId="hallowcostumes"
 version="1.2.0.0"
 displayName="Hallow Costumes"
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+displayURL="https://marbledhubb.com/projects/mods/hallow-costumes"
 logoFile="hc_icon.png"
 credits="MarbledHubb Studios, Premium Members, Beta Testers, GitHub contributers"
-authors="MarbledNull, WereF0X"
+authors="MarbledNull, WereF0X, Aimiwi"
 
 description='''A mod that adds costumes & props of iconic horror characters.'''
 
