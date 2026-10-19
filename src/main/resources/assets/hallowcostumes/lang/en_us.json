@@ -27,5 +27,9 @@
   "item.hallowcostumes.foxy_helmet": "Foxy the Pirate Mask",
   "item.hallowcostumes.ghost_helmet": "Ghost Cap",
   "item.hallowcostumes.ghost_chestplate": "Ghost Robe",
-  "item.hallowcostumes.frankensteins_monster_helmet": "Frankenstein's Monster Mask"
+  "item.hallowcostumes.frankensteins_monster_helmet": "Frankenstein's Monster Mask",
+  "item.hallowcostumes.clown_helmet": "Clown Mask",
+  "item.hallowcostumes.clown_chestplate": "Clown Shirt",
+  "item.hallowcostumes.clown_leggings": "Clown Pants",
+  "item.hallowcostumes.clown_boots": "Clown Boots"
 }
