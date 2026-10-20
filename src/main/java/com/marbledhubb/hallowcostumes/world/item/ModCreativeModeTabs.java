@@ -23,8 +23,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PROP_KNIFE.get());
                         output.accept(ModItems.PROP_KITCHEN_KNIFE.get());
                         output.accept(ModItems.FREDDYS_MICROPHONE.get());
-                        output.accept(ModItems.BONNIES_GUITAR.get());
-                        output.accept(ModItems.CHICAS_CUPCAKE.get());
                         output.accept(ModItems.FOXYS_HOOK.get());
 
                         //armors

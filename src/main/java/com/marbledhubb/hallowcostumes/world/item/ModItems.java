@@ -15,8 +15,8 @@ public class ModItems {
     public static final RegistryObject<Item> PROP_KNIFE = ITEMS.register("prop_knife", () -> new SwordItem(Tiers.WOOD,0, -2.4F,new Item.Properties().durability(64)));
     public static final RegistryObject<Item> PROP_KITCHEN_KNIFE = ITEMS.register("prop_kitchen_knife", () -> new SwordItem(Tiers.WOOD, 0, -2.4F,new Item.Properties().durability(64)));
     public static final RegistryObject<Item> FREDDYS_MICROPHONE = ITEMS.register("freddys_microphone", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BONNIES_GUITAR = ITEMS.register("bonnies_guitar", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CHICAS_CUPCAKE = ITEMS.register("chicas_cupcake", () -> new Item(new Item.Properties()));
+//    public static final RegistryObject<Item> BONNIES_GUITAR = ITEMS.register("bonnies_guitar", () -> new Item(new Item.Properties()));
+//    public static final RegistryObject<Item> CHICAS_CUPCAKE = ITEMS.register("chicas_cupcake", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FOXYS_HOOK = ITEMS.register("foxys_hook", () -> new SwordItem(Tiers.WOOD, 0, -2.4F,new Item.Properties().durability(64)));
 
     //armors
