@@ -14,8 +14,8 @@ public class ModItems {
     public static final DeferredItem<Item> PROP_KNIFE = ITEMS.register("prop_knife", () -> new SwordItem(Tiers.WOOD,new Item.Properties().durability(64).attributes(SwordItem.createAttributes(Tiers.WOOD, 0, -2.4F))));
     public static final DeferredItem<Item> PROP_KITCHEN_KNIFE = ITEMS.register("prop_kitchen_knife", () -> new SwordItem(Tiers.WOOD,new Item.Properties().durability(64).attributes(SwordItem.createAttributes(Tiers.WOOD, 1, -2.4F))));
     public static final DeferredItem<Item> FREDDYS_MICROPHONE = ITEMS.registerSimpleItem("freddys_microphone");
-    public static final DeferredItem<Item> BONNIES_GUITAR = ITEMS.registerSimpleItem("bonnies_guitar");
-    public static final DeferredItem<Item> CHICAS_CUPCAKE = ITEMS.registerSimpleItem("chicas_cupcake");
+//    public static final DeferredItem<Item> BONNIES_GUITAR = ITEMS.registerSimpleItem("bonnies_guitar");
+//    public static final DeferredItem<Item> CHICAS_CUPCAKE = ITEMS.registerSimpleItem("chicas_cupcake");
     public static final DeferredItem<Item> FOXYS_HOOK = ITEMS.register("foxys_hook", () -> new SwordItem(Tiers.WOOD,new Item.Properties().durability(64).attributes(SwordItem.createAttributes(Tiers.WOOD, 0, -2.4F))));
 
     //armors
