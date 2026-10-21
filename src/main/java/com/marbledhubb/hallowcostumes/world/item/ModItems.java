@@ -46,7 +46,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> FREDDY_HELMET = ITEMS.register("freddy_helmet", () -> new DefaultedGeoArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties(), "freddy_helmet"));
     public static final DeferredItem<Item> BONNIE_HELMET = ITEMS.register("bonnie_helmet", () -> new DefaultedGeoArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties(), "bonnie_helmet"));
-    public static final DeferredItem<Item> BONNIE_ALT_HELMET = ITEMS.register("bonnie_alt_helmet", () -> new DefaultedGeoArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties(), "bonnie_helmet"));
+    public static final DeferredItem<Item> BONNIE_ALT_HELMET = ITEMS.register("bonnie_alt_helmet", () -> new DefaultedGeoArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties(), "bonnie_helmet", "bonnie_alt_helmet"));
     public static final DeferredItem<Item> CHICA_HELMET = ITEMS.register("chica_helmet", () -> new DefaultedGeoArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties(), "chica_helmet"));
     public static final DeferredItem<Item> FOXY_HELMET = ITEMS.register("foxy_helmet", () -> new DefaultedGeoArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new Item.Properties(), "foxy_helmet"));
 
