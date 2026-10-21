@@ -121,6 +121,9 @@ repositories {
             includeGroup("com.eliotlash.mclib")
         }
     }
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 dependencies {
@@ -129,6 +132,7 @@ dependencies {
 
     implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.8.4")
     implementation("com.eliotlash.mclib:mclib:20")
+    implementation fg.deobf("curse.maven:jei-238222:9277600")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -1,19 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
-    "L L"
+    "#L#",
+    "LTL"
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:brown_dye"
     },
     "L": {
       "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "minecraft:white_dye"
     }
   },
   "result": {
-    "id": "hallowcostumes:michael_myers_boots",
+    "item": "hallowcostumes:michael_myers_helmet",
     "count": 1
   }
 }

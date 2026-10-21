@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PPP",
     "P P",
-    "P P"
+    "PPP",
+    "PPP"
   ],
   "key": {
     "P": {
@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "id": "hallowcostumes:mummy_leggings",
+    "item": "hallowcostumes:mummy_chestplate",
     "count": 1
   }
 }

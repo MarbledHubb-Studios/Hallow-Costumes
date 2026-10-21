@@ -1,20 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
-    "LLL",
-    "LLL"
+    "#L#",
+    "LFL",
+    " F "
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:black_dye"
     },
     "L": {
       "item": "minecraft:leather"
+    },
+    "F": {
+      "item": "minecraft:iron_nugget"
     }
   },
   "result": {
-    "id": "hallowcostumes:michael_myers_chestplate",
+    "item": "hallowcostumes:ghostface_helmet",
     "count": 1
   }
 }

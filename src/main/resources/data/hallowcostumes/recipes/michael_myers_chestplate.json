@@ -1,19 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "FLF",
-    "L L"
+    "# #",
+    "LLL",
+    "LLL"
   ],
   "key": {
+    "#": {
+      "item": "minecraft:cyan_dye"
+    },
     "L": {
       "item": "minecraft:leather"
-    },
-    "F": {
-      "item": "minecraft:purple_dye"
     }
   },
   "result": {
-    "id": "hallowcostumes:foxy_helmet",
+    "item": "hallowcostumes:michael_myers_chestplate",
     "count": 1
   }
 }

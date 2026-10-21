@@ -1,22 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#L#",
-    "LTL"
+    "B#W",
+    "#R#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:brown_dye"
+    "B": {
+      "item": "minecraft:blue_dye"
     },
-    "L": {
+    "#": {
       "item": "minecraft:leather"
     },
-    "T": {
+    "W": {
       "item": "minecraft:white_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
     }
   },
   "result": {
-    "id": "hallowcostumes:michael_myers_helmet",
-    "count": 1
+    "item": "hallowcostumes:clown_helmet"
   }
 }

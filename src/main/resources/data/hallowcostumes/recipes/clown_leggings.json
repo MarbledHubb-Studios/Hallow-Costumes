@@ -1,19 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "FLF",
-    "L L"
+    "R#Y",
+    "# #",
+    "# #"
   ],
   "key": {
-    "L": {
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "#": {
       "item": "minecraft:leather"
     },
-    "F": {
+    "Y": {
       "item": "minecraft:yellow_dye"
     }
   },
   "result": {
-    "id": "hallowcostumes:chica_helmet",
-    "count": 1
+    "item": "hallowcostumes:clown_leggings"
   }
 }

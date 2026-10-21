@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#L#",
-    "L L",
+    "FLF",
     "L L"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_dye"
-    },
     "L": {
       "item": "minecraft:leather"
+    },
+    "F": {
+      "item": "minecraft:yellow_dye"
     }
   },
   "result": {
-    "id": "hallowcostumes:ghostface_leggings",
+    "item": "hallowcostumes:chica_helmet",
     "count": 1
   }
 }

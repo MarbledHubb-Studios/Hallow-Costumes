@@ -1,19 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
-    "L L"
+    "G#G",
+    "# #"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_dye"
+    "G": {
+      "item": "minecraft:green_dye"
     },
-    "L": {
+    "#": {
       "item": "minecraft:leather"
     }
   },
   "result": {
-    "id": "hallowcostumes:ghostface_boots",
-    "count": 1
+    "item": "hallowcostumes:frankensteins_monster_helmet"
   }
 }

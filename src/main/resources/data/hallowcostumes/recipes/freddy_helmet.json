@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
-    "LLL",
-    "LLL"
+    " # ",
+    "FLF",
+    "L L"
   ],
   "key": {
     "#": {
@@ -11,10 +11,13 @@
     },
     "L": {
       "item": "minecraft:leather"
+    },
+    "F": {
+      "item": "minecraft:brown_dye"
     }
   },
   "result": {
-    "id": "hallowcostumes:ghostface_chestplate",
+    "item": "hallowcostumes:freddy_helmet",
     "count": 1
   }
 }
