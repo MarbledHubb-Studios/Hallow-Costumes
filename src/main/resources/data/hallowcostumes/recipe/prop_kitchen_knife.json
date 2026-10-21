@@ -1,20 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "FF",
-    "FF",
-    "S"
+    "#",
+    "=",
+    "/"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "F": {
+    "#": {
       "item": "minecraft:iron_nugget"
+    },
+    "=": {
+      "item": "minecraft:iron_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "id": "hallowcostumes:prop_kitchen_knife",
-    "count": 1
+    "id": "hallowcostumes:prop_kitchen_knife"
   }
 }

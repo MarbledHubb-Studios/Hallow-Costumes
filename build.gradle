@@ -22,6 +22,9 @@ repositories {
             includeGroup("software.bernie.geckolib")
         }
     }
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -84,6 +87,7 @@ configurations {
 
 dependencies {
     implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
+    implementation "curse.maven:jei-238222:9267535"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
